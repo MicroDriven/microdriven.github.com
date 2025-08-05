@@ -1,65 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MicroDriven Event-driven Microservice Framework for .Net enthusiasts</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why MicroDriven</title>
   <style>
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #0e1b12;
+      line-height: 1.6;
+    }
+    header {
       background-color: #0e1b12;
       color: #e2f0e8;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-
-    header {
+      padding: 40px 20px;
       text-align: center;
-      padding: 2rem;
     }
-
     h1 {
-      font-size: 3rem;
-      font-weight: 800;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      color: #1c3b2d;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background-color: #e2f0e8;
+      padding: 15px;
+      border-left: 5px solid #1c3b2d;
+      margin-top: 30px;
+    }
+    .contact {
+      margin-top: 60px;
+      padding: 30px;
+      background-color: #f2f9f5;
+      border-top: 3px solid #1c3b2d;
+      text-align: center;
+    }
+    .contact h3 {
+      margin-bottom: 10px;
+      color: #1c3b2d;
+    }
+    .contact p {
       margin: 0;
     }
-
-    p {
-      font-size: 1.25rem;
-      font-weight: 400;
-      max-width: 600px;
-      margin: 1rem auto 2rem auto;
+    .lang-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
     }
-
-    .cta {
-      background-color: #1c3b2d;
+    .lang-switch a {
       color: #e2f0e8;
-      padding: 1rem 2rem;
-      border: none;
-      border-radius: 0.5rem;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    .illustration {
-      max-width: 100%;
-      height: auto;
-      margin-top: 2rem;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
+    <div class="lang-switch">
+      <a href="/index-fr.html">FR</a>
+    </div>
     <h1>MicroDriven</h1>
-    <p>Modern infrastructure rooted in simplicity. A production-grade microservices starter stack for .NET teams who want to move fast — and stay grounded.</p>
-    <a href="#" class="cta">Get Started</a>
+    <p>A simple microservices architecture for .NET and Windows environments</p>
   </header>
-</body>
-</html>
+
+  <section>
+    <p>
+      Designing a microservices-based architecture from scratch can be overwhelming — especially with the flood of tools, libraries, and cloud-native patterns available today.
+    </p>
+
+    <p>
+      <strong>MicroDriven</strong> provides a focused starting point: a production-ready architecture that keeps things <strong>simple</strong>, <strong>performant</strong>, and <strong>tailored for .NET and Windows environments</strong> — no need to dive headfirst into Kubernetes, Docker, or complex orchestrators unless you want to.
+    </p>
+
+    <p>
+      We aim to help teams build robust services <strong>without overengineering</strong> — so developers can focus on business logic, not infrastructure complexity.
+    </p>
+
+    <h2>🔧 Keypoints to Run Microservices</h2>
+    <ul>
+      <li><strong>Efficient Logging &amp; Visualization</strong><br>Centralized logs with filters, correlation IDs, and powerful search (e.g., Serilog + Seq)</li>
+      <li><strong>Service Lifecycle &amp; Management</strong><br>Start, stop, restart, and monitor services easily — without custom scripts</li>
+      <li><strong>Service Discovery</strong><br>Dynamic discovery of service endpoints (e.g., Consul)</li>
+      <li><strong>Caching</strong><br>Use memory or distributed caching (e.g., in-memory, Redis) for performance</li>
+      <li><strong>Authentication &amp; Authorization</strong><br>OAuth2 and token validation (Keycloak, Auth0, or custom)</li>
+      <li><strong>Request Throttling</strong><br>Protect services from overload and abusive patterns</li>
+      <li><strong>gRPC or WCF</strong><br>For fast, efficient, contract-first communication between services</li>
+      <li><strong>Load Balancing</strong><br>Ensure reliability and scalability across multiple nodes or instances</li>
+    </ul>
+
+    <div class="highlight">
+      <strong>MicroDriven is here for pragmatic teams who want a solid foundation without a DevOps PhD.</strong>
+    </div>
+  </section>
+
+  <div class="contact">
+    <h3>Does your organization need help?</h3>
+    <p>Contact me for more information or collaboration opportunities.</p>
+    <p>Email: <a href="mailto:microdriven@proton.me">microdriven@proton.me</a></p>
+  </div>
+
+</body></html>
